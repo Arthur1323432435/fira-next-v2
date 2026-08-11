@@ -2,7 +2,7 @@
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import './navbar.css';
-import Carrinho from '@/components/carrinho/carrinho';
+import Carrinho from '@/components/cart/carrinho';
 
 export default function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
