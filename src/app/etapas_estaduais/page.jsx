@@ -3,7 +3,7 @@
 import React from 'react';
 
 // Import dos componentes globais
-import Navbar from '@/components/navbar';
+import Navbar from '@/components/navbar/navbar';
 import FAQs from '@/components/FAQs/faqs';
 import Patrocinadores from '@/components/Patrocinadores/patrocinadores';
 import Footer from '@/components/footerComponent/footer';

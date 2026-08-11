@@ -2,7 +2,6 @@
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import './navbar.css';
-import Carrinho from '@/components/cart/cart';
 
 export default function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -121,9 +120,9 @@ export default function Navbar() {
                             <li><Link href="/" onClick={handleNormalLinkClick}>Início</Link></li>
                             <li><Link href="/#privileges" onClick={handleNormalLinkClick}>Nossa História</Link></li>
                             <li><Link href="/#speakers" onClick={handleNormalLinkClick}>Nossa Equipe</Link></li>
-                            <li><Link href="/etapas-estaduais" onClick={handleNormalLinkClick}>Etapas Estaduais</Link></li>
+                            <li><Link href="/etapas_estaduais" onClick={handleNormalLinkClick}>Etapas Estaduais</Link></li>
                             <li><Link href="/etapa_nacional" onClick={handleNormalLinkClick}>Etapa Nacional</Link></li>
-                            <li><Link href="/etapa-mundial" onClick={handleNormalLinkClick}>Etapa Mundial</Link></li>
+                            <li><Link href="/etapa_mundial" onClick={handleNormalLinkClick}>Etapa Mundial</Link></li>
                             <li><Link href="/resultados" onClick={handleNormalLinkClick}>Resultados</Link></li>
                             
                             {/* Submenu de Modalidades */}

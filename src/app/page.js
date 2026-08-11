@@ -1,12 +1,12 @@
 'use client';
-import { useEffect, useRef } from 'react'; // ← 1. useRef Importado
+import { useEffect, useRef } from 'react';
 
-import Navbar from '@/components/navbar';
+import Navbar from '@/components/navbar/navbar';
 import Carrinho from '@/components/cart/cart';
 import Statitics from '@/components/statitics/statitics';
 import Footer from '@/components/footerComponent/footer';
 import Patrociandores from '@/components/Patrocinadores/patrocinadores';
-import FAQs from '@/components/FAQs/faqs'
+import FAQs from '@/components/FAQs/faqs';
 
 import './globals.css';
 import '@/css/hero.css'; // ← Garanta que o CSS da hero está sendo importado!

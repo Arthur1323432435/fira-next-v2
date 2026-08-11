@@ -15,11 +15,11 @@ import '@/css/mundial/locais_mundial.css'; // CSS específico indicado no HTML
 const etapaNacionalData = [
   {
     id: 1,
-    estado: 'PARAÍBA',
-    cidade: 'Conde',
-    bgImage: 'https://framerusercontent.com/images/1n5ARKV5tNIOe4vP7yqmpQqPhI.png', //[cite: 19]
+    estado: 'CANADÁ',
+    cidade: 'Toronto',
+    bgImage: 'https://framerusercontent.com/images/Jaklrr7BMiaT5DLpMRCXL8fj8Sg.png', //[cite: 19]
     organizador: 'Profesor: Alexandre Amancio', //[cite: 19]
-    professores: ['https://framerusercontent.com/images/DbG9Vzab0pV2d4J06bWf9oo.webp'], //[cite: 19]
+    professores: ['https://framerusercontent.com/images/0duw68Sqd5rpPk0p0VfARnfEo.svg'], //[cite: 19]
     localData: 'STEM TECNOLOGIA EDUCACIONAL | 20/05 - 31/08', //[cite: 19]
   }
 ];
@@ -36,8 +36,8 @@ export default function EtapaNacional() {
 
           {/* Cabeçalho[cite: 19] */}
           <header className="schedule-header">
-            <span className="label-text">ETAPA NACIONAL</span>
-            <h2 className="heading-2 text-color">ETAPA NACIONAL NA PARAÍBA</h2>
+            <span className="label-text">ETAPA MUNDIAL</span>
+            <h2 className="heading-2 text-color">ETAPA MUNDIAL NO CANADÁ</h2>
             <p className="body-1 text-transparency">Inscreva a sua equipe e conquiste a vitória.</p>
           </header>
 
