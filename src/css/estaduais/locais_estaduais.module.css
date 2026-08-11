@@ -19,9 +19,8 @@
     color: var(--color-red) !important;
 }
 
-
 .item-details .body-1-sb {
-    color: var(--color-white) !important;
+    color: var(--color-black) !important;
 }
 
 .schedule-container {

@@ -4,13 +4,13 @@
    SCHEDULE SECTION
    ========================================= */
 .schedule-section {
-    background-color: var(--color-white-80);
+    background-color: var(--rgba-white-80);
     /* Fundo Azul[cite: 4] */
     padding: 5%;
     width: 100%;
 }
 
-.schedule-header .heading-2 {
+.schedule-header .text-color {
     color: var(--color-black) !important;
 }
 
@@ -19,10 +19,6 @@
     color: var(--color-red) !important;
 }
 
-.heading-2,
-.heading-3 {
-    color: var(--color-white-80) !important;
-}
 
 .item-details .body-1-sb {
     color: var(--color-white) !important;
@@ -160,13 +156,13 @@
 }
 
 /* Avatares dos Palestrantes */
-.avatars {
+.bandeira {
     display: flex;
     gap: 8px;
     margin-top: 8px;
 }
 
-.avatars img {
+.bandeira img {
     width: 100px;
     height: auto;
     border-radius: 6px;
@@ -179,7 +175,7 @@
     width: 100%;
 }
 
-.avatars.button-container {
+.bandeira .button-container {
     display: flex;
     flex-direction: wrap;
     gap: 12px;
@@ -261,13 +257,13 @@
         width: 100%;
     }
 
-    .avatars img {
+    .bandeira img {
         width: 70px;
         height: auto;
     }
 
     /* 2. Centraliza exclusivamente o container do botão */
-    .avatars.button-container {
+    .bandeira.button-container {
         width: 100%;
         display: flex;
         flex-direction: column;

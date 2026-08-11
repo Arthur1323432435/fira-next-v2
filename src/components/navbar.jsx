@@ -122,7 +122,7 @@ export default function Navbar() {
                             <li><Link href="/#privileges" onClick={handleNormalLinkClick}>Nossa História</Link></li>
                             <li><Link href="/#speakers" onClick={handleNormalLinkClick}>Nossa Equipe</Link></li>
                             <li><Link href="/etapas-estaduais" onClick={handleNormalLinkClick}>Etapas Estaduais</Link></li>
-                            <li><Link href="/etapa-nacional" onClick={handleNormalLinkClick}>Etapa Nacional</Link></li>
+                            <li><Link href="/etapa_nacional" onClick={handleNormalLinkClick}>Etapa Nacional</Link></li>
                             <li><Link href="/etapa-mundial" onClick={handleNormalLinkClick}>Etapa Mundial</Link></li>
                             <li><Link href="/resultados" onClick={handleNormalLinkClick}>Resultados</Link></li>
                             
