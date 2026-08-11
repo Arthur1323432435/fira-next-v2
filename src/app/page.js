@@ -2,7 +2,7 @@
 import { useEffect, useRef } from 'react'; // ← 1. useRef Importado
 
 import Navbar from '@/components/navbar';
-import Carrinho from '@/components/cart/carrinho';
+import Carrinho from '@/components/cart/cart';
 import Statitics from '@/components/statitics/statitics';
 import Footer from '@/components/footerComponent/footer';
 import Patrociandores from '@/components/Patrocinadores/patrocinadores';

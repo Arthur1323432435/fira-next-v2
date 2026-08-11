@@ -7,7 +7,7 @@ import Navbar from '@/components/navbar';
 import FAQs from '@/components/FAQs/faqs';
 import Patrocinadores from '@/components/Patrocinadores/patrocinadores';
 import Footer from '@/components/footerComponent/footer';
-import Carrinho from '@/components/cart/carrinho';
+import Carrinho from '@/components/cart/cart';
 
 // 1. IMPORT MODULARIZADO (O segredo está aqui)
 import styles from '@/css/estaduais/locais_estaduais.module.css';

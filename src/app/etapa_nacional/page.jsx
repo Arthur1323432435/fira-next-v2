@@ -7,7 +7,7 @@ import Navbar from '@/components/navbar';
 import FAQs from '@/components/FAQs/faqs';
 import Patrocinadores from '@/components/Patrocinadores/patrocinadores';
 import Footer from '@/components/footerComponent/footer';
-import Carrinho from '@/components/cart/carrinho';
+import Carrinho from '@/components/cart/cart';
 
 import '@/css/mundial/locais_mundial.css'; // CSS específico indicado no HTML
 
