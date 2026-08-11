@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import './carrinho.css';
+import './cart.css';
 
 // Lista inicial de produtos (simulação dos dados)
 const INITIAL_ITEMS = [
