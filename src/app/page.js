@@ -8,8 +8,6 @@ import Footer from '@/components/footerComponent/footer';
 import Patrociandores from '@/components/Patrocinadores/patrocinadores';
 import FAQs from '@/components/FAQs/faqs'
 
-
-
 import './globals.css';
 import '@/css/hero.css'; // ← Garanta que o CSS da hero está sendo importado!
 import '@/css/about.css';
