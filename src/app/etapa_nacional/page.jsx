@@ -4,8 +4,8 @@ import React from 'react';
 
 // Import dos componentes globais
 import Navbar from '@/components/navbar/navbar';
-import FAQs from '@/components/FAQs/faqs';
-import Patrocinadores from '@/components/Patrocinadores/patrocinadores';
+import FAQs from '@/components/faqs/faqs';
+import Patrocinadores from '@/components/patrocinadores/patrocinadores';
 import Footer from '@/components/footer/footer';
 import Carrinho from '@/components/cart/cart';
 
