@@ -132,9 +132,9 @@ export default function Navbar() {
                                     <span className="submenu-arrow">›</span>
                                 </a>
                                 <ul className="submenu">
-                                    <li><Link href="/liga-kids" onClick={handleNormalLinkClick}>Kids</Link></li>
-                                    <li><Link href="/liga-juvenil" onClick={handleNormalLinkClick}>Juvenil</Link></li>
-                                    <li><Link href="/liga-universitaria" onClick={handleNormalLinkClick}>Universitária</Link></li>
+                                    <li><Link href="/modalidades/kids" onClick={handleNormalLinkClick}>Kids</Link></li>
+                                    <li><Link href="/modalidades/juvenil" onClick={handleNormalLinkClick}>Juvenil</Link></li>
+                                    <li><Link href="/modalidades/universitaria" onClick={handleNormalLinkClick}>Universitária</Link></li>
                                 </ul>
                             </li>
                             <li><Link href="/loja" onClick={handleNormalLinkClick}>Loja</Link></li>
