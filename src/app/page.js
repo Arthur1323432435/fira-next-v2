@@ -4,7 +4,7 @@ import { useEffect, useRef } from 'react';
 import Navbar from '@/components/navbar/navbar';
 import Carrinho from '@/components/cart/cart';
 import Statitics from '@/components/statitics/statitics';
-import Footer from '@/components/footerComponent/footer';
+import Footer from '@/components/footer/footer';
 import Patrociandores from '@/components/patrocinadores/patrocinadores';
 import FAQs from '@/components/faqs/faqs';
 

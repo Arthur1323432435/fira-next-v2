@@ -4,12 +4,14 @@ import React from 'react';
 
 // Importações dos componentes reutilizáveis do seu projeto
 import Navbar from '@/components/navbar/navbar';
-import Products from '@/components/products/Products'; // Ajuste o caminho conforme a estrutura da sua pasta
 import Carrinho from '@/components/cart/cart';
 import Faq from '@/components/faqs/faqs';
 import Sponsors from '@/components/patrocinadores/patrocinadores';
-import Footer from '@/components/footerComponent/footer';
+import Footer from '@/components/footer/footer';
+import Products from '@/components/products/products';
 
+// Importação do CSS específico da página
+import '@/components/products/products.css'; // Caminho absoluto para o CSS, se necessário
 
 export default function LojaPage() {
     return (
@@ -18,7 +20,6 @@ export default function LojaPage() {
             <Navbar />
 
             <main>
-                {/* Componente de Produtos que criamos anteriormente */}
                 <Products />
             </main>
 

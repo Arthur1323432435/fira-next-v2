@@ -7,7 +7,7 @@ import Navbar from '@/components/navbar/navbar';
 import Carrinho from '@/components/cart/cart';
 import Faq from '@/components/faqs/faqs';
 import Sponsors from '@/components/patrocinadores/patrocinadores';
-import Footer from '@/components/footerComponent/footer';
+import Footer from '@/components/footer/footer';
 
 // Importação do CSS específico de etapas/locais
 import '@/css/mundial/locais_mundial.css';

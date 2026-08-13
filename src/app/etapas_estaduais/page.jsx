@@ -6,7 +6,7 @@ import React from 'react';
 import Navbar from '@/components/navbar/navbar';
 import FAQs from '@/components/FAQs/faqs';
 import Patrocinadores from '@/components/Patrocinadores/patrocinadores';
-import Footer from '@/components/footerComponent/footer';
+import Footer from '@/components/footer/footer';
 import Carrinho from '@/components/cart/cart';
 
 // 1. IMPORT MODULARIZADO (O segredo está aqui)

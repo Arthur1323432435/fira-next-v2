@@ -7,7 +7,7 @@ import Navbar from '@/components/navbar/navbar';
 import Carrinho from '@/components/cart/cart';
 import Faq from '@/components/faqs/faqs';
 import Sponsors from '@/components/patrocinadores/patrocinadores';
-import Footer from '@/components/footerComponent/footer';
+import Footer from '@/components/footer/footer';
 
 // Estilos originais que controlam as classes "expanded", "open", etc.
 import '@/css/resultados.css'; 

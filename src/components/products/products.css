@@ -4,7 +4,7 @@
 
 .products-section {
     width: 100%;
-    background-color: #E2E2E2; /* Fundo cinza claro da seção */
+    background-color: var(--color-white);
 }
 
 /* Faixa Preta do Título */
