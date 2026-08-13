@@ -1,5 +1,5 @@
 'use client';
-import './patrocinadores.css'; // Importe o CSS do footer se tiver um específico na mesma pasta
+import '@/components/patrocinadores/patrocinadores.css'; // Importe o CSS do footer se tiver um específico na mesma pasta
 
 export default function Patrociandores() {
     // Lista com os nomes dos arquivos das logos

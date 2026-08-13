@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-import './faqs.css'; // Importe o CSS da FAQ aqui se ele estiver em uma pasta específica
+import '@/components/faqs/faqs.css'; // Importe o CSS da FAQ aqui se ele estiver em uma pasta específica
 
 const faqData = [
     {

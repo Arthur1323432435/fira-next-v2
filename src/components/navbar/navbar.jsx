@@ -127,7 +127,7 @@ export default function Navbar() {
                             
                             {/* Submenu de Modalidades */}
                             <li className={`has-submenu ${openSubmenu === 'modalidades' ? 'open active' : ''}`}>
-                                <a href="#modalidades" onClick={(e) => handleSubmenuClick(e, 'modalidades')}>
+                                <a onClick={(e) => handleSubmenuClick(e, 'modalidades')}>
                                     Modalidades
                                     <span className="submenu-arrow">›</span>
                                 </a>
