@@ -149,7 +149,7 @@ export default function Navbar() {
                         <div className="promo-banner-container">
                             <img src="/images/FINAL-NACIONAL-2026.webp" alt="Nacional 2026" className="promo-img" />
                         </div>
-                        <Link href="/etapa-nacional" className="discover-link" onClick={handleNormalLinkClick}>Discover all</Link>
+                        <Link href="/etapa_nacional" className="discover-link" onClick={handleNormalLinkClick}>Descobrir Nacional 2026</Link>
                     </div>
 
                 </div>
