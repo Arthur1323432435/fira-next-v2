@@ -138,7 +138,7 @@ export default function Navbar() {
                                 </ul>
                             </li>
                             <li><Link href="/loja" onClick={handleNormalLinkClick}>Loja</Link></li>
-                            <li><a href="#contato" onClick={handleNormalLinkClick}>Contato</a></li>
+                            <li><a href="/contato" onClick={handleNormalLinkClick}>Contato</a></li>
                             <li><a href="#faq" onClick={handleNormalLinkClick}>FAQ</a></li>
                         </ul>
                     </div>
