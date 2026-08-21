@@ -58,7 +58,8 @@ body {
 
 /* Ações da Direita (Ícones alinhados) */
 .nav-actions {
-    display: flex;
+
+    display: none;
     gap: 15px;
 }
 
